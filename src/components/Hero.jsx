@@ -44,21 +44,22 @@ const Hero = () => {
               {HERO_CONTENT}
             </motion.p>
 
-            {/* Resume Button */}
             <motion.a
-              href="/path/to/your/resume.pdf"
-              download
-              className="inline-block text-lg font-medium py-3 px-6 mt-6 rounded-lg text-white bg-gradient-resume bg-[length:200%_200%] animate-gradient-move"
-              variants={container(1.5)}
-              initial="hidden"
-              animate="visible"
-            >
-              Resume
-            </motion.a>
+  href="/resume.pdf" 
+  download="Saiful_Islam_Pimon_Resume.pdf"
+  className="inline-block text-lg font-medium py-3 px-6 mt-6 rounded-lg text-white bg-gradient-resume bg-[length:200%_200%] animate-gradient-move"
+  variants={container(1.5)}
+  initial="hidden"
+  animate="visible"
+>
+  Resume
+</motion.a>
+
+
           </div>
         </div>
 
-        {/* Right Section with Profile Image */}
+        
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
             <motion.img
