@@ -30,7 +30,7 @@ export const PROJECTS = [
     description:
       "A fully functional To-Do List application that allows users to add, remove, and mark tasks as complete. Built with React and styled with Tailwind CSS.",
     technologies: ["React", "Tailwind CSS", "JavaScript"],
-    link: "https://github.com/primon311/To-do-list" 
+    link: "https://to-do-list-five-gamma-63.vercel.app/" 
   },
   {
     title: "Pacman",
